@@ -4,7 +4,7 @@ exe 'source '.stdpath('config').'/keys.vim'
 
 if !exists('g:vscode')
   " Plugin
-  exe 'source '.stdpath('config').'/plugins.vim'
+  exe 'luafile '.stdpath('config').'/plugins.lua'
 
   " Theme
   exe 'source '.stdpath('config').'/theme.vim'
