@@ -1,6 +1,6 @@
 - name: Packages for cargo
   community.general.cargo:
-    name: 
+    name:
       - stylua
     state: present
 

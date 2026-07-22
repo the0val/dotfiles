@@ -46,6 +46,7 @@
       - java-21-openjdk-devel
       - jq
       - julia
+      - just
       - latexmk
       - luarocks
       - ncurses-compat-libs
