@@ -8,3 +8,4 @@ end
 map('<esc>', '<cmd>nohlsearch<CR>')
 map('+', '"+', '', { 'n', 'x' })
 map('<leader>a', '<C-^>', 'Alternate File')
+map('<esc><esc>', '<C-\\><C-n>', 'Escpe terminal', 't')
