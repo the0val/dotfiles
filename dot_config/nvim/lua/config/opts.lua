@@ -1,6 +1,8 @@
 vim.g.mapleader = ' '
 
-vim.o.conceallevel = 2
+-- Only when in norg
+--vim.o.conceallevel = 2
+vim.o.wrap = true
 vim.o.concealcursor = 'nv'
 vim.o.shell = 'fish'
 vim.o.number = true
