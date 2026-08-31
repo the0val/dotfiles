@@ -12,6 +12,7 @@ return {
         'gopls',
         'html',
         'jedi_language_server',
+        'prettierd', --Mason prettired
         'lua_ls', --Mason lua-language-server
         'ts_ls', --Mason typescript-language-server
         'yamlls', --Mason yaml-language-server
@@ -133,5 +134,9 @@ return {
         desc = 'Quickfix List (Trouble)',
       },
     },
+  },
+
+  {
+    'immanuwell/droast.nvim',
   },
 }
