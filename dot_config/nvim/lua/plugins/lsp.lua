@@ -138,5 +138,6 @@ return {
 
   {
     'immanuwell/droast.nvim',
+    cmd = { 'DroastLint', 'DroastQuickfix' },
   },
 }
