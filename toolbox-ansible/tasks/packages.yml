@@ -62,6 +62,7 @@
       - qrencode
       - ripgrep
       - rust
+      - shellcheck
       - texlive-scheme-medium
       - tldr
       - tmux

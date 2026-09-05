@@ -8,7 +8,7 @@
     - { src: ansible-galaxy }
     - { src: ansible-playbook }
     - { src: bootc }
-    - { src: buildah}
+    - { src: buildah }
     - { src: flatpak }
     - { src: ostree }
     - { src: podman }
@@ -16,4 +16,4 @@
     - { src: systemctl }
     - { src: tmux }
     - { src: xdg-open }
-
+    - { src: skopeo }
