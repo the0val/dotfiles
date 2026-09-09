@@ -9,6 +9,7 @@ return {
       vim.lsp.enable {
         'svelte',
         'cssls', --Mason css-lsp
+        'elp',
         'gopls',
         'html',
         'jedi_language_server',

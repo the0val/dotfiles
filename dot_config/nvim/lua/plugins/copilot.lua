@@ -20,7 +20,7 @@ return {
         '<leader>gt',
         function()
           -- Write logic to check if Copilot is active and toggle it accordingly
-          local is_active = vim.g.copilot_enabled == 1
+          local is_active = vim.g.copilot_enabled ~= 0
           if is_active then
             vim.g.copilot_enabled = 0
             print 'Copilot disabled'
